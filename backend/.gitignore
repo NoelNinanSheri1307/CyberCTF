@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+*.env
+!*.env.example
+
+# Prisma Generated Client
+/prisma/generated/
+/prisma/generated/prisma
+
+# Database Seeding & Admin Scripts
+/prisma/*.js
+!/prisma/schema.prisma
+
+# Logs & Reports
+logs/
+*.log
+leaderboard.pdf
+*.pdf
